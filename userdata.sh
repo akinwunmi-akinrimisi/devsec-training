@@ -39,3 +39,5 @@ curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "aws
 sudo apt install unzip -y
 unzip awscliv2.zip
 sudo ./aws/install --update
+
+curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash

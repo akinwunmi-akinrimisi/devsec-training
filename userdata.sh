@@ -34,6 +34,9 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 
 sudo apt update && sudo apt install terraform -y
 snap install aws-cli --classic
+
+curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
+
 sudo apt  install awscli -y
 curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 sudo apt install unzip -y
@@ -42,4 +45,4 @@ sudo ./aws/install --update
 
 
 
-curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
+

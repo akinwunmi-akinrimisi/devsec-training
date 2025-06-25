@@ -40,4 +40,6 @@ sudo apt install unzip -y
 unzip awscliv2.zip
 sudo ./aws/install --update
 
+sudo snap install aws-cli --classic
+
 curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
